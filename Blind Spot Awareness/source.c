@@ -34,9 +34,13 @@ int main(void)
 	icu_init();
     while (1) 
     {
+	    if(t2_g > t1_g)
+	    {
 		pulse_length_g = t2_g - t1_g;
 		LCD_goToRowColumn(1, 0);
 		LCD_intgerToString(pulse_length_g);
+    
+	    }
     }
 }
 
