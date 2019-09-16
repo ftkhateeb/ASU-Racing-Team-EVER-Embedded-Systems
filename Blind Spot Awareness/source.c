@@ -2,7 +2,7 @@
  * BlindSpotAwarness.c
  *
  * Created: 7/8/2019 10:41:08 PM
- * Author : Ali
+ * Author : Ali/Khateeb
  */ 
 #define F_CPU 1000000      
 
